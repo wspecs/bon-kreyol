@@ -1,0 +1,33 @@
+{
+  "name": "bon-kreyol",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "wspecs/bon-kreyol",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "mocha ./dist/test/*.js"
+  },
+  "keywords": [
+    "tsm",
+    "starter",
+    "tsm-starter"
+  ],
+  "author": {
+    "name": "Wendly Saintil",
+    "email": "wendlysaintil@gmail.com",
+    "url": "https://twitter.com//wendlysaintil"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.0.2",
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "args-finder": "0.0.3"
+  }
+}
