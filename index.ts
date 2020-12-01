@@ -1,5 +1,2 @@
-import {sanitizeKreyol, replaceTextFromFile} from './lib/utils'
-
+import {sanitizeKreyol} from './lib/utils'
 export {sanitizeKreyol};
-
-replaceTextFromFile();
